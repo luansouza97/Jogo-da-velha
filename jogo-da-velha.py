@@ -59,7 +59,7 @@ def jogada_pessoa():
         matriz()
         break
       else:
-          print("\nPESSOA, Esta jogada já foi escolhina, tente novamente.\n")
+          print("\nPESSOA, Esta jogada já foi escolhina, tente novamente\n")
     else:
       print(f"{RED}\nEscolha uma posição válida.{RESET}")
 #VERIFICA SE ALGUÉM GANHOU
