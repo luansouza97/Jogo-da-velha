@@ -62,6 +62,7 @@ def jogada_pessoa():
           print("\nPESSOA, Esta jogada já foi escolhina, tente novamente\n")
     else:
       print(f"{RED}\nEscolha uma posição válida.{RESET}")
+
 #VERIFICA SE ALGUÉM GANHOU
 def Condicao_Ganhador():
   if linha[0] == linha[1] == linha[2]:
