@@ -6,7 +6,7 @@ Desenvolver um jogo da velha executável pelo terminal que permita jogar contra 
 ### Tecnologias Utilizadas
 - Python
 
-- Bibliotecas random e os
+- Bibliotecas: random, os
 
 ### O Que Aprendi
 - Estruturas de repetição: Utilização de WHILE para repetição de blocos de  códigos
