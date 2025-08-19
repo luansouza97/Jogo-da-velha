@@ -11,4 +11,4 @@ Desenvolver um jogo da velha executável pelo terminal que permita jogar contra 
 ### O Que Aprendi
 - Estruturas de repetição: Utilização de WHILE para repetição de blocos de  códigos
 
-- Funções: Utilização de funções para organizar treços de código e realizar uma função específica
+- Funções: Utilização de funções para organizar trechos de código e realizar uma função específica
