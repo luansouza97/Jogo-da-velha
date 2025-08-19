@@ -51,7 +51,7 @@ def jogada_pessoa():
   while True:
     pos = int(input("\nEscolha uma posição: ")) - 1
     if pos == 0 or pos == 1 or pos == 2 or pos == 3 or pos == 4 or pos == 5 or pos == 6 or pos == 7 or pos == 8:
-      if linha[pos] != "" and linha[pos] != o and linha[pos] != x:
+      if linha[pos] != o and linha[pos] != x:
         linha[pos] = x
         escolha_pessoa.append(pos + 1)
         
@@ -126,7 +126,7 @@ def Condicao_Ganhador():
       return None
     
 
-def identifica_ganhador(condicao_ganhador, placar_comp, placar_pess, ganhou):
+def identifica_ganhador(condicao_ganhador, placar_comp, placar_pess):
   if condicao_ganhador == "VOCÊ":
     placar_pess = placar_pess + 1
     print("\nPARABÉNS, você ganhou!")
