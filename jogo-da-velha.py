@@ -39,13 +39,13 @@ def matriz():
 def jogada_computador():
   while True:
     pos_comp = random.randint(0, 8)
-    if linha[pos_comp] != "" and linha[pos_comp] != x and linha[pos_comp] != o:
+    if linha[pos_comp] != x and linha[pos_comp] != o:
       linha[pos_comp] = o
       escolha_comp.append(pos_comp + 1)
       os.system('clear')
       matriz()
       break
-
+    
 #JOGADA DA PESSOA
 def jogada_pessoa():
   while True:
