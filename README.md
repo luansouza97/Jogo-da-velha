@@ -3,7 +3,7 @@
 ## Especificações Técnicas
 Desenvolver um jogo da velha executável pelo terminal que permita jogar contra o computador.
 
-### Técnologias Utilizadas
+### Tecnologias Utilizadas
 - Python
 
 - Bibliotecas random e os
